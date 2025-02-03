@@ -1,0 +1,39 @@
+.event-card {
+  background-color: #1E1E1E;
+  color: #F8F9FA;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-10px);
+}
+
+.event-image-container {
+  height: 200px; /* Altura fija para la imagen */
+  overflow: hidden;
+}
+
+.event-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.event-title {
+  color: #CDAA7D;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.event-date {
+  font-size: 0.9rem;
+  color: #B0B0B0;
+}
+
+.badge.bg-success {
+  background-color: #28a745; /* Verde para el badge */
+  font-size: 0.9rem;
+  padding: 0.5rem;
+}

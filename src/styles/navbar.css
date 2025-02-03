@@ -1,0 +1,33 @@
+.custom-navbar {
+  background-color: #121212 !important; /* Negro elegante */
+  border-bottom: 3px solid #CDAA7D; /* Borde inferior dorado */
+  padding: 15px 20px;
+}
+
+.brand-text {
+  color: #CDAA7D !important; /* Nombre de la marca en dorado */
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.nav-link-custom {
+  color: #F8F9FA !important; /* Blanco suave */
+  font-weight: 500;
+  margin-left: 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link-custom:hover {
+  color: #CDAA7D !important; /* Dorado al pasar el mouse */
+}
+
+.custom-toggler {
+  border: none;
+  color: #CDAA7D !important;
+}
+
+.custom-toggler:focus,
+.custom-toggler:hover {
+  outline: none;
+  box-shadow: none;
+}

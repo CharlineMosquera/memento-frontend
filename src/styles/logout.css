@@ -1,0 +1,14 @@
+.logout-message {
+  background-color: var(--dark-bg);
+  border: 2px solid var(--gold-color);
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-light);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.logout-message p {
+  margin: 0;
+  font-size: 1.2rem;
+}

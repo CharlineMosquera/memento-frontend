@@ -1,0 +1,66 @@
+.event-card {
+  background-color: #1E1E1E;
+  color: #F8F9FA;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-10px);
+}
+
+.event-image-container {
+  height: 200px; /* Altura fija para la imagen */
+  overflow: hidden;
+}
+
+.event-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.event-title {
+  color: #CDAA7D;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.event-date {
+  font-size: 0.9rem;
+  color: #B0B0B0;
+}
+
+.confirm-button {
+  background-color: #CDAA7D;
+  color: #1E1E1E;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.confirm-button:hover {
+  background-color: #b8956d;
+  color: #fff;
+}
+
+.confirm-button {
+  background: linear-gradient(90deg, #FF7E5F, #feb47b); /* Gradiente llamativo */
+  color: #fff; /* Texto blanco */
+  font-weight: bold;
+  border: none;
+  border-radius: 25px; /* Bordes redondeados */
+  padding: 12px; /* Espaciado interno */
+  font-size: 1rem;
+  transition: all 0.3s ease; /* Transición suave */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
+}
+
+.confirm-button:hover {
+  background: linear-gradient(90deg, #feb47b, #FF7E5F); /* Invertimos el gradiente */
+  transform: scale(1.05); /* Aumentamos ligeramente el tamaño */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+}
