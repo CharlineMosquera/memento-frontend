@@ -7,6 +7,9 @@ import MyEvents from './pages/MyEvents';
 import PropTypes from 'prop-types';
 import Logout from './pages/Logout';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import CreateEvent from './components/CreateEvent';
+import EditEvent from './components/EditEvent';
 
 const PrivateRoute = ({ children }) => {
   const isAuthenticated = !!localStorage.getItem('userId'); // Verifica si el usuario está autenticado
@@ -27,6 +30,8 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/my-events" element={<PrivateRoute><MyEvents /></PrivateRoute>} />
         <Route path="/logout" element={<PrivateRoute><Logout /></PrivateRoute>} />
+        <Route path="/create-event" element={<CreateEvent />} />
+        <Route path="/edit-event/:id" element={<EditEvent />} />
       </Routes>
     </Router>
   );

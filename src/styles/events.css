@@ -64,3 +64,12 @@
   transform: scale(1.05); /* Aumentamos ligeramente el tamaño */
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
 }
+
+.bi-pencil-fill {
+  font-size: 1.2rem; /* Tamaño del ícono */
+  color: #FFC107; /* Color dorado */
+}
+
+.bi-pencil-fill:hover {
+  color: #E0A800; /* Cambio de color al pasar el mouse */
+}

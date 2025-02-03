@@ -1,0 +1,45 @@
+.login-card {
+  background-color: #1E1E1E;
+  border: 2px solid #CDAA7D;
+  border-radius: 15px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 450px;
+  padding: 2rem;
+}
+
+.text-light {
+  color: #F8F9FA !important;
+}
+
+.custom-input {
+  background-color: #252525;
+  color: #F8F9FA;
+  border: 1px solid #6C757D;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  padding: 0.8rem;
+}
+
+.custom-input:focus {
+  border-color: #CDAA7D !important;
+  box-shadow: 0 0 15px rgba(205, 170, 125, 0.8);
+}
+
+.btn-custom-gold {
+  background: linear-gradient(90deg, #CDAA7D, #b8956d);
+  color: #1E1E1E;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  padding: 12px;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-custom-gold:hover {
+  background: linear-gradient(90deg, #b8956d, #CDAA7D);
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
